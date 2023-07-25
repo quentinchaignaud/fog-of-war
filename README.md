@@ -11,7 +11,7 @@ To install the project, you'll need to have flutter installed and a testing devi
 
 Clone the project and go to the main folder :
 ```bash
-git clone && cd fog-of-war
+git clone https://github.com/quentinchaignaud/fog-of-war && cd fog-of-war
 ```
 
 Then, run it with : 
@@ -21,15 +21,17 @@ flutter run
 
 ## How to contribute
 
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/quentinchaignaud/fog-of-war/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Where to go if you need help
 
 You can either :
 - Go to our [discord](https://discord.gg/R9gtXaZzfs), on the #discussions-dev channel
-- Send us a message on our email 
+- Send us a message on our - [Email](mailto:contact@wonderwalkar.com?subject=[GitHub]%20Source%20Han%20Sans) 
 
-## How the project is organized
+## How the project is structured
+
+The project is structured 
 
 ## Licence
 
