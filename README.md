@@ -1,6 +1,8 @@
-# Fog of war
+<p align="center">
+  <img width="150"  src="https://github.com/quentinchaignaud/fog-of-war/assets/115201795/b18ba40c-cf89-4563-aa77-fa53cf470020)0">
+</p>
 
-This project is a flutter app that displays a "fog of war" on top of a real world map, so that the user can explore surrounding locations and reveal hidden areas. 
+This project is a flutter app that displays a "fog of war" on top of a real world map, so thatthe user can explore surrounding locations and reveal hidden areas. 
 It is built on top of [flutter_map](https://pub.dev/packages/flutter_map), and it's one of the core building block of [WonderWalkar](https://wonderwalkar.com/). 
 
 Added to a map, this feature can make exploration more interresting and encourage people to go out more.
