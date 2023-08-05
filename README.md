@@ -33,7 +33,7 @@ You can either :
 
 ## How the project is structured
 
-The project is structured 
+The project is structured around the MVC model. It uses Riverpod to manage the state of it's shared variables.
 
 ## Licence
 
