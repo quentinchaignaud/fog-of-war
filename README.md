@@ -18,7 +18,7 @@ git clone https://github.com/quentinchaignaud/fog-of-war && cd fog-of-war
 
 Then, run it with : 
 ```bash
-flutter ru
+flutter run
 ```
 
 ## How to contribute
@@ -34,6 +34,7 @@ You can either :
 ## How the project is structured
 
 The project is structured around the MVC model. It uses Riverpod to manage the state of it's shared variables.
+Basically, all logic operations happen in the /controller folder. The folder /model contains are classes that are immutable. The folder /view contains all the UI displays, as well as components.
 
 ## Licence
 
