@@ -18,12 +18,12 @@ git clone https://github.com/quentinchaignaud/fog-of-war && cd fog-of-war
 
 Then, run it with : 
 ```bash
-flutter run
+flutter ru
 ```
 
 ## How to contribute
 
-Please read [CONTRIBUTING.md](https://github.com/quentinchaignaud/fog-of-war/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/quentinchaignaud/fog-of-war/blob/main/CONTRIBUTING.md) for details.
 
 ## Where to go if you need help
 
