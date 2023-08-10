@@ -20,10 +20,9 @@ Pull Requests are the best way to propose changes to the codebase. We use GitHub
 ## Pull Request Process
 
 1.  **Fork the repo and create your branch from `main`.**
-2.  **Ensure any install or build dependencies are removed before the end of the layer when doing a build.**
-3.  **Make sure your code lints and follows the coding standards.**
-4.  Make sure your commits follows the [conventional commits norm](https://www.conventionalcommits.org/en/v1.0.0/)
-5.  **Issue that pull request!**
+2.  **Make sure your code lints and follows the coding standards.**
+3.  **Make sure your commits follows the [conventional commits norm](https://www.conventionalcommits.org/en/v1.0.0/)**
+4.  **Issue that pull request!**
 
 ## Code of Conduct
 
