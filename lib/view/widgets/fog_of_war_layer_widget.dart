@@ -7,10 +7,10 @@ import 'package:fog_of_war/model/map_screen_data.dart';
 class FogOfWarLayerWidget extends ConsumerWidget {
   const FogOfWarLayerWidget({
     super.key,
-    required this.mapScreenState,
+    required this.state,
   });
 
-  final MapScreenData mapScreenState;
+  final MapScreenData state;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -18,8 +18,8 @@ class FogOfWarLayerWidget extends ConsumerWidget {
       OverlayImage(
         bounds: LatLngBounds(
             AppConstant.parisTopLeft, AppConstant.parisBottomRight),
-        imageProvider: MemoryImage(mapScreenState.updatedFogImage!),
-        opacity: 0.8,
+        imageProvider: MemoryImage(state.updatedFogImage!),
+        opacity: 0.9,
         gaplessPlayback: true,
       ),
     ]);

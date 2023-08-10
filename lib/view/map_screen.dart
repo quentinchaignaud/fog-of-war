@@ -11,6 +11,7 @@ import 'package:fog_of_war/view/widgets/current_location_layer_widget.dart';
 import 'package:fog_of_war/view/widgets/fog_of_war_layer_widget.dart';
 import 'package:fog_of_war/view/widgets/logo_widget.dart';
 import 'package:fog_of_war/view/widgets/map_tile_layer_widget.dart';
+import 'package:latlong2/latlong.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class MapScreen extends ConsumerStatefulWidget {
@@ -33,7 +34,10 @@ class MapScreenState extends ConsumerState<MapScreen> {
     const factory = LocationMarkerDataStreamFactory();
     _positionStream =
         factory.fromGeolocatorPositionStream().asBroadcastStream();
-    _positionStreamSubscription = _positionStream.listen((event) {});
+    _positionStreamSubscription = _positionStream.listen((event) {
+      final position = event?.latLng ?? const LatLng(0.0, 0.0);
+      ref.read(mapScreenProvider.notifier).onPositionChanged(position);
+    });
   }
 
   @override
@@ -88,7 +92,7 @@ class MapScreenState extends ConsumerState<MapScreen> {
               ],
               children: [
                 const MapTileLayerWidget(),
-                FogOfWarLayerWidget(mapScreenState: mapState),
+                FogOfWarLayerWidget(state: mapState),
                 CurrentLocationLayerWidget(
                     positionStream: _positionStream,
                     followOnLocationUpdate: followOnLocationUpdate,
